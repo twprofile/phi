@@ -1,0 +1,62 @@
+@import url('https://cdn.jsdelivr.net/gh/fxxk3rrth4ng/utils/fonts.css');
+
+body {
+	font-family: "Pretendard JP Variable", "Pretendard Variable", sans-serif;
+	word-break: keep-all;
+  	background-color: #e3e2ea;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100dvh;
+}
+
+.content {
+	margin: 1.5rem;
+	padding: 2rem;
+	border-radius: 2rem;
+	color: #e3e2ea;
+	background-color: #8a2be2;
+	text-align: center;
+}
+
+hr {
+	color: #e3e2ea;
+}
+
+.links {
+	display: flex-end;
+	height: 2rem;
+}
+
+.item {
+	float: left;
+	height: 2rem;
+	width: 2rem;
+}
+
+svg {
+	transition: all 0.2s linear;
+	width: 1.5rem;
+	height: 1.5rem;
+	opacity: 30%;
+	display: block;
+	position: relative;
+}
+
+svg:hover {
+	transform: scale(1.2);
+	opacity: 60%;
+}
+
+hr {
+	margin: 1.5em 0;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+	margin-bottom: 1rem;
+}
